@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 class MyHashMap {
     private static final int SIZE = 1000;  // Size of the hash map
     private LinkedList<Entry>[] table;

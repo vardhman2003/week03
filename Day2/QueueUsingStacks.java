@@ -1,8 +1,8 @@
 import java.util.Stack;
 
 class QueueUsingStacks {
-    private Stack<Integer> enqueueStack;
-    private Stack<Integer> dequeueStack;
+    private final Stack<Integer> enqueueStack;
+    private final Stack<Integer> dequeueStack;
 
     public QueueUsingStacks() {
         enqueueStack = new Stack<>();
